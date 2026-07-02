@@ -7,7 +7,7 @@ The system is built as a hybrid detection and response platform. The lab environ
 
 * **Attacker Node:** Kali Linux (pre-loaded with penetration testing tools like Nmap and Impacket).
 * **Victim Endpoint:** Windows 10 (Target for generating Security and Sysmon logs).
-* **SIEM Platform:** Wazuh Server (Handles centralized monitoring, log analysis, and custom rules).
+* **SIEM Platform:** Wazuh OVA (Handles centralized monitoring, log analysis, and custom rules).
 * **Firewall/Gateway:** pfSense (Responsible for network segmentation and automated IP blocking).
 * **Analytics & Visualization:** Ubuntu for ELK Stack (Elasticsearch, Logstash, Kibana) and Vega for advanced correlation graphs.
 
