@@ -6,11 +6,14 @@ The Proactive Threat Detection and Security Monitoring Tool is an integrated SOC
 ## System Architecture
 ![System Architecture Diagram](Diagrams/System_Architecture_Diagram.png)
 
-## Project Goals
-The project was developed with the following core objectives:
+# Project Objectives
+The development of this system was guided by the following core objectives:
 
-* **Centralized Monitoring:** Designing a system to collect and analyze security data from multiple sources (Windows and Sysmon telemetry).
-* **Dynamic Risk Scoring:** Integrating detection rules and machine learning to prioritize high-risk events, reducing alert fatigue.
-* **Attack Correlation:** Linking multi-stage attack events into a single sequence (attack chain) to track threat progression.
-* **Automated Response:** Implementing immediate mitigation, such as IP blocking and session termination via firewall integration.
-* **Real-Time Visualization:** Developing dashboards to monitor attack progressions, risk scores, and response status.
+* **Objectives Research and Scope Definition**: Investigating project requirements to establish a clear boundary for development.
+* **Centralised Monitoring**: Designing and implementing a unified system to collect and analyse security data from different sources.
+* **Detection and Risk Integration**: Combining specialised detection rules with dynamic risk scoring to identify and prioritise high-risk security events, effectively reducing alert fatigue.
+* **Attack Event Correlation**: Employing advanced detection techniques to link multi-stage attack events into a single sequence (attack chain) and identify broader attack patterns.
+* **Response Automation**: Mitigating identified threats through automated actions, specifically IP blocking and session termination through firewall integration.
+* **Visualisation Development**: Building Kibana dashboards to provide real-time visibility into security logs, attack progressions, and calculated risk scores.
+* **System Validation**: Conducting attack simulations to test and validate the system's accuracy in both detecting threats and executing responses.
+* **Documentation and Future Planning**: Recording the system's design and testing outcomes while identifying potential future improvements.
