@@ -3,6 +3,8 @@ An integrated, real-time security monitoring system designed to detect, analyze,
 
 ## Overview
 The Proactive Threat Detection and Security Monitoring Tool is an integrated SOC framework designed to detect, analyze, and automatically respond to multi-stage cyberattacks in real-time. It addresses the operational challenges of traditional SIEMs such as isolated event analysis and manual response delays by introducing hybrid detection that correlates related security events into a continuous, observable attack chain.
+## System Architecture
+![System Architecture Diagram](Diagrams/System_Architecture_Diagram.png)
 
 ## Project Goals
 The project was developed with the following core objectives:
